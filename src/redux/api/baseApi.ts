@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const baseApi = createApi({
     reducerPath: 'baseApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://aspr-b.vercel.app',
+        baseUrl: 'https://aspr-b.vercel.app',
     }),
     tagTypes: ['CDatas', 'ADatas'],
     endpoints: (builder) => ({
